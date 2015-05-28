@@ -88,6 +88,12 @@ Dependencies
 * Cython (http://cython.org)
 * GSL (for a Windows port see
   https://code.google.com/p/oscats/downloads/list)
+  
+  * In Windows, CythonGSL will use the environmental variable ``LIB_GSL`` 
+    to determine the location of the GSL installation. Create it after you 
+    install GSL. (e.g., ``C:/lib/gsl``)
+  * Also, you have to add the ``bin`` subdirectory of your GSL installation
+    to your ``PATH`` environmental variable.
 
 Installing CythonGSL
 ====================
